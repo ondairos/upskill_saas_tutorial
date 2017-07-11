@@ -13,37 +13,11 @@
  *= require_tree .
  *= require_self
  */
-body{
-    background-color: #1E90FF;
-}
 
 
-h1, h2 {
+
+h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
-    position: relative;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
     padding: 10px;
-    background: grey;
-    
 }
 
-h3 {
-    font-family: 'Kurale', serif;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, .3);
-    padding: 10px;
-    background: purple;
-    color: white;
-    
-}
-
-.customaki {
-    margin-left: 10px;
-    margin-bottom: 20px;
-    margin-right: 10px;
-    margin-top: 20px;
-    border: 2px black;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, .3);
-    background-color: #FFFAFA;
-    font-family: 'Kurale', serif;
-    
-}
