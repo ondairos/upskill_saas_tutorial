@@ -16,4 +16,9 @@
 
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
+    position: relative;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: grey;
+    
 }
