@@ -17,6 +17,7 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+//Background Gradient
 .navbar, .home-callout {
   //Gradient provided by @_ighosh
     background: #16222A;  /* fallback for old browsers */
@@ -25,35 +26,26 @@
 
 }
 
-
+//Typography styles
 h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
   padding: 10px;
 }
-
+// Nav Styles
 .navbar{
   border: none;
   
 }
 
-.navbar-default .navbar-brand{
+// Customization of navbar
+.navbar-default .navbar-brand,.navbar-default .navbar-nav > li > a {
   color: white;
+  &:hover {
+    color: white;
+    opacity: 0.75;
+  }
 }
-
-.navbar-default .navbar-nav > li > a {
-  color:white;
-}
-
-.navbar-default .navbar-brand:hover{
-  color:white;
-  opacity: 0.75;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-  color: white;
-  opacity: 0.75;
-}
-
+// Home Page Styles
 .home-callout{
   color: white;
   margin-top: -20px;
